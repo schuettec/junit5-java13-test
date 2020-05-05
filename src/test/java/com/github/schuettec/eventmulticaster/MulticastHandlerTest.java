@@ -27,7 +27,7 @@ public class MulticastHandlerTest {
 
 	@Test
 	public void eventMulticasterFactory_01_test() {
-		assertThrows(IllegalArgumentException.class, () -> EventMulticasterFactory.create(null));
+		assertThrows(NullPointerException.class, () -> EventMulticasterFactory.create(null));
 	}
 
 	@Test
