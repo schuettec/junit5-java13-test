@@ -1,5 +1,5 @@
 package com.github.schuettec.mocktest;
 
-public interface InnerModuleInterface {
+public interface MyInterface {
 	public String echo(String message);
 }

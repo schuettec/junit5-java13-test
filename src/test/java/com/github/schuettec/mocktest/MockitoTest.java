@@ -17,7 +17,7 @@ public class MockitoTest {
 	private static final String SECOND_STRING = "SecondString";
 
 	@Mock
-	protected InnerModuleInterface innerMock; // = Mockito.mock(InnerModuleInterface.class);
+	protected MyInterface innerMock; // = Mockito.mock(InnerModuleInterface.class);
 
 	@Mock
 	protected OuterModuleInterface outerMock; // = Mockito.mock(OuterModuleInterface.class);
