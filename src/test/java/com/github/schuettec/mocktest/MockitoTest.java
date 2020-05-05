@@ -17,10 +17,10 @@ public class MockitoTest {
 	private static final String SECOND_STRING = "SecondString";
 
 	@Mock
-	protected InnerModuleInterface innerMock;
+	protected InnerModuleInterface innerMock; // = Mockito.mock(InnerModuleInterface.class);
 
 	@Mock
-	protected OuterModuleInterface outerMock;
+	protected OuterModuleInterface outerMock; // = Mockito.mock(OuterModuleInterface.class);
 
 	@Test
 	public void shouldMockBothWithoutOpens() {
