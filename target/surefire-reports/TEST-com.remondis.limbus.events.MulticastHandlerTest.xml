@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.remondis.limbus.events.MulticastHandlerTest" time="0.356" tests="5" errors="5" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\schuettec\eclipse-workspace\junit5-test\target\test-classes;C:\Users\schuettec\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.2\junit-jupiter-5.6.2.jar;C:\Users\schuettec\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\schuettec\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\schuettec\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\schuettec\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\schuettec\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;C:\Users\schuettec\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\schuettec\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\schuettec\.m2\repository\org\mockito\mockito-core\2.21.0\mockito-core-2.21.0.jar;C:\Users\schuettec\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\schuettec\.m2\repository\net\bytebuddy\byte-buddy-agent\1.8.15\byte-buddy-agent-1.8.15.jar;C:\Users\schuettec\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\schuettec\.m2\repository\org\mockito\mockito-junit-jupiter\2.23.0\mockito-junit-jupiter-2.23.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\openjdk-13\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\schuettec\AppData\Local\Temp\surefire10831312701866680257 2020-05-05T14-24-35_376-jvmRun1 surefire1397270346069311002tmp surefire_010373639168557696557tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\schuettec\eclipse-workspace\junit5-test\target\test-classes;C:\Users\schuettec\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.2\junit-jupiter-5.6.2.jar;C:\Users\schuettec\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\schuettec\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\schuettec\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\schuettec\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\schuettec\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;C:\Users\schuettec\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\schuettec\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\schuettec\.m2\repository\org\mockito\mockito-core\2.21.0\mockito-core-2.21.0.jar;C:\Users\schuettec\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\schuettec\.m2\repository\net\bytebuddy\byte-buddy-agent\1.8.15\byte-buddy-agent-1.8.15.jar;C:\Users\schuettec\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\schuettec\.m2\repository\org\mockito\mockito-junit-jupiter\2.23.0\mockito-junit-jupiter-2.23.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\schuettec"/>
+    <property name="user.language" value="de"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="C:\Users\schuettec\eclipse-workspace\junit5-test\target\classes"/>
+    <property name="java.version.date" value="2019-09-17"/>
+    <property name="java.home" value="C:\Program Files\Java\openjdk-13"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\schuettec\eclipse-workspace\junit5-test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\schuettec\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M4\surefire-booter-3.0.0-M4.jar;C:\Users\schuettec\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M4\surefire-api-3.0.0-M4.jar;C:\Users\schuettec\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M4\surefire-logger-api-3.0.0-M4.jar;C:\Users\schuettec\eclipse-workspace\junit5-test\target\test-classes;C:\Users\schuettec\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.2\junit-jupiter-5.6.2.jar;C:\Users\schuettec\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\schuettec\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\schuettec\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\schuettec\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\schuettec\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;C:\Users\schuettec\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\schuettec\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\schuettec\.m2\repository\org\mockito\mockito-core\2.21.0\mockito-core-2.21.0.jar;C:\Users\schuettec\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\schuettec\.m2\repository\net\bytebuddy\byte-buddy-agent\1.8.15\byte-buddy-agent-1.8.15.jar;C:\Users\schuettec\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\schuettec\.m2\repository\org\mockito\mockito-junit-jupiter\2.23.0\mockito-junit-jupiter-2.23.0.jar;C:\Users\schuettec\.m2\repository\org\apache\maven\surefire\surefire-junit-platform\3.0.0-M4\surefire-junit-platform-3.0.0-M4.jar;C:\Users\schuettec\.m2\repository\org\apache\maven\surefire\common-java5\3.0.0-M4\common-java5-3.0.0-M4.jar;C:\Users\schuettec\.m2\repository\org\junit\platform\junit-platform-launcher\1.6.2\junit-platform-launcher-1.6.2.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13+33"/>
+    <property name="user.name" value="schuettec"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\schuettec\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SCHUET~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="13"/>
+    <property name="user.dir" value="C:\Users\schuettec\eclipse-workspace\junit5-test"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\openjdk-13\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/openjdk-13/bin/server;C:/Program Files/Java/openjdk-13/bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Program Files\PostgreSQL\10\bin\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files (x86)\Common Files\Siemens\System;C:\Program Files (x86)\IBM\Notes\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\schuettec\appdata\local\microsoft\windowsapps;c:\apache-maven-3.5.2-bin\bin;C:\Program Files (x86)\d.velop\d3client;C:\Users\schuettec\AppData\Roaming\npm;C:\work\Programme\eclipse-jee-2019-09-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13+33"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="multicast_01_test" classname="com.remondis.limbus.events.MulticastHandlerTest" time="0.331">
+    <error type="org.mockito.exceptions.base.MockitoException"><![CDATA[org.mockito.exceptions.base.MockitoException: Problems setting field subscriberMock annotated with @org.mockito.Mock(name="", extraInterfaces={}, stubOnly=false, answer=RETURNS_DEFAULTS, serializable=false)
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field protected com.remondis.limbus.events.SubscriberType com.remondis.limbus.events.MulticastHandlerTest.subscriberMock accessible: module com.remondis.limbus.events does not "opens com.remondis.limbus.events" to unnamed module @76f7d241
+]]></error>
+  </testcase>
+  <testcase name="eventMulticasterFactory_01_test" classname="com.remondis.limbus.events.MulticastHandlerTest" time="0.005">
+    <error type="org.mockito.exceptions.misusing.UnfinishedMockingSessionException"><![CDATA[org.mockito.exceptions.misusing.UnfinishedMockingSessionException: 
+
+Unfinished mocking session detected.
+Previous MockitoSession was not concluded with 'finishMocking()'.
+For examples of correct usage see javadoc for MockitoSession class.
+]]></error>
+  </testcase>
+  <testcase name="eventMulticasterFactory_02_test" classname="com.remondis.limbus.events.MulticastHandlerTest" time="0">
+    <error type="org.mockito.exceptions.misusing.UnfinishedMockingSessionException"><![CDATA[org.mockito.exceptions.misusing.UnfinishedMockingSessionException: 
+
+Unfinished mocking session detected.
+Previous MockitoSession was not concluded with 'finishMocking()'.
+For examples of correct usage see javadoc for MockitoSession class.
+]]></error>
+  </testcase>
+  <testcase name="multicast_errorhandling_01_test" classname="com.remondis.limbus.events.MulticastHandlerTest" time="0">
+    <error type="org.mockito.exceptions.misusing.UnfinishedMockingSessionException"><![CDATA[org.mockito.exceptions.misusing.UnfinishedMockingSessionException: 
+
+Unfinished mocking session detected.
+Previous MockitoSession was not concluded with 'finishMocking()'.
+For examples of correct usage see javadoc for MockitoSession class.
+]]></error>
+  </testcase>
+  <testcase name="multicast_silent_errorhandling_01_test" classname="com.remondis.limbus.events.MulticastHandlerTest" time="0">
+    <error type="org.mockito.exceptions.misusing.UnfinishedMockingSessionException"><![CDATA[org.mockito.exceptions.misusing.UnfinishedMockingSessionException: 
+
+Unfinished mocking session detected.
+Previous MockitoSession was not concluded with 'finishMocking()'.
+For examples of correct usage see javadoc for MockitoSession class.
+]]></error>
+  </testcase>
+</testsuite>
