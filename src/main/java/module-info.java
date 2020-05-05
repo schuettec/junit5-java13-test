@@ -1,3 +1,3 @@
-module com.remondis.limbus.events {
-	exports com.remondis.limbus.events;
+module com.github.schuettec.eventmulticaster {
+	exports com.github.schuettec.eventmulticaster;
 }

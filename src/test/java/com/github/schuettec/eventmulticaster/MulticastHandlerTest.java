@@ -1,4 +1,4 @@
-package com.remondis.limbus.events;
+package com.github.schuettec.eventmulticaster;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.fail;
@@ -12,6 +12,9 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.github.schuettec.eventmulticaster.EventMulticaster;
+import com.github.schuettec.eventmulticaster.EventMulticasterFactory;
 
 @ExtendWith(MockitoExtension.class)
 public class MulticastHandlerTest {

@@ -1,4 +1,4 @@
-package com.remondis.limbus.events;
+package com.github.schuettec.eventmulticaster;
 
 public interface SubscriberType {
 

@@ -1,4 +1,4 @@
-package com.remondis.limbus.events;
+package com.github.schuettec.eventmulticaster;
 
 import static java.util.Objects.requireNonNull;
 
