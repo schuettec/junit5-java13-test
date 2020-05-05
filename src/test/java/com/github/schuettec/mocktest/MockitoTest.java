@@ -17,17 +17,17 @@ public class MockitoTest {
 	private static final String SECOND_STRING = "SecondString";
 
 	@Mock
-	protected MyInterface innerMock; // = Mockito.mock(InnerModuleInterface.class);
+	protected MyInterface myMock; // = Mockito.mock(InnerModuleInterface.class);
 
 	@Mock
 	protected OuterModuleInterface outerMock; // = Mockito.mock(OuterModuleInterface.class);
 
 	@Test
 	public void shouldMockBothWithoutOpens() {
-		Mockito.when(innerMock.echo(Mockito.isA(String.class))).thenAnswer(answerWithArgument(String.class));
+		Mockito.when(myMock.echo(Mockito.isA(String.class))).thenAnswer(answerWithArgument(String.class));
 		Mockito.when(outerMock.echo(Mockito.isA(String.class))).thenAnswer(answerWithArgument(String.class));
 
-		assertEquals(FIRST_STRING, innerMock.echo(FIRST_STRING));
+		assertEquals(FIRST_STRING, myMock.echo(FIRST_STRING));
 		assertEquals(SECOND_STRING, outerMock.echo(SECOND_STRING));
 	}
 
