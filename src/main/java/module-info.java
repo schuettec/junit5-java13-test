@@ -1,3 +1,3 @@
-module com.github.schuettec.eventmulticaster {
-	exports com.github.schuettec.eventmulticaster;
+module mocktest {
+	exports com.github.schuettec.mocktest;
 }
