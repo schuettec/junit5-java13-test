@@ -6,15 +6,10 @@ import static org.mockito.Mockito.doThrow;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-
-import com.github.schuettec.eventmulticaster.EventMulticaster;
-import com.github.schuettec.eventmulticaster.EventMulticasterFactory;
 
 @ExtendWith(MockitoExtension.class)
 public class MulticastHandlerTest {

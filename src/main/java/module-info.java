@@ -1,3 +1,3 @@
-open module com.github.schuettec.eventmulticaster {
+module com.github.schuettec.eventmulticaster {
 	exports com.github.schuettec.eventmulticaster;
 }
